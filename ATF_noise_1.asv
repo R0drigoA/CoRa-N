@@ -195,7 +195,6 @@ while t < total_time
         mY = 0.5;
     end
 
-    
     if (t > (total_time/2)-10 && t < (total_time/2)+10)
        j2p = j2;
     end
@@ -209,10 +208,7 @@ while t < total_time
     if(j2 < j1p)
          Y_ss = Y_simulation(j2);
     else
-         break     
-         % si el numero de reacciones supera el numero de reacciones de la simulacion 
-         % anterior antes de la perturbacion (j1p) se rompe, aqui no suele
-         % pasar 
+         break     % 
     end
 
 
