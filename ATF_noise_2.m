@@ -1,7 +1,7 @@
 clear; clc;
 %rng(1)
 
-%% Simulacion sistema ATF  
+%% Simulacion sistema ATF
 
 total_time = 50000;
 
@@ -171,7 +171,7 @@ W_distribution = [W_molecules; W_cumprob];    % distribucion acumulada de Y
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
-%% Simulation of localy analogous system without feedback
+%% Simulation of localy analogous system without feedback with a new molecule
 total_time = 50000;
 
 t = 0;
